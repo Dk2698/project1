@@ -1,0 +1,115 @@
+* {
+  margin: 0px 5px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.body {
+  font-family: serif;
+}
+
+#size {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  font-size: 35px;
+  color: red;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+}
+
+.header {
+  height: 10%;
+  align-items: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  & .logo {
+    font-size: 4vw;
+  }
+  & .menu {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5vw;
+    gap: 15px;
+  }
+}
+
+.main {
+  height: 80%;
+  display: flex;
+  flex-direction: row;
+  &_image {
+    background-image: url("../source/pexels2.jpg");
+    width: 50%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+  }
+
+  &text {
+    display: flex;
+    font-display: column;
+    justify-content: left;
+    align-items: left;
+    &1 {
+      font-size: 10vw;
+    }
+    &2,
+    &3,
+    &4 {
+      font-size: 5vw;
+    }
+
+  }
+}
+
+
+.footer{
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    margin-right: 10px;
+    justify-content: flex-end;
+    background-color: silver;
+
+    [class^="f"]{
+        img{
+            width: 4vw;
+            height: 4vh;
+            border: 1px solid black;
+            border-radius: 40%;
+            -webkit-border-radius: 40%;
+            -moz-border-radius: 40%;
+            -ms-border-radius: 40%;
+            -o-border-radius: 40%;
+}
+    }
+}
+
+
+
+@media screen and (max-width:650px) {
+    .header{
+        justify-content: center;
+
+        & .logo {
+            font-size: 3vw;
+          }
+          & .menu {
+            display: flex;
+            flex-direction: row;
+            font-size: 1.2vw;
+            gap: 10px;
+          }
+    }
+}

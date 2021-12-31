@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <form action="" method="">
+          <div class="user-details">
+            <div class="input-box">
+              <span class="details">Name</span>
+              <input
+                type="text"
+                id="fname"
+                placeholder="Enter your name"
+                required
+              />
+              <div class="error" id="nameError"></div>
+            </div>
+            <div class="input-box">
+              <span class="details">Password</span>
+              <input
+                type="password"
+                id="password"
+                placeholder="Enter your password"
+                required
+              />
+              <div class="error" id="passwordError"></div>
+            </div>
+
+            <div class="input-box">
+              <span class="details">Email Address</span>
+              <input
+                type="email"
+                id="email"
+                placeholder="Enter your email"
+                required
+              />
+              <div class="error" id="emailError"></div>
+            </div>
+
+            <div class="gender-details">
+              <input type="radio" name="gender" id="dot-1" />
+              <input type="radio" name="gender" id="dot-2" />
+              <span class="gender-title">Gender</span>
+              <div class="category">
+                <label for="dot-1">
+                  <span class="dot one"></span>
+                  <span class="gender">Male</span>
+                </label>
+                <label for="dot-2">
+                  <span class="dot two"></span>
+                  <span class="gender">Female</span>
+                </label>
+              </div>
+              <div class="error" id="genderError"></div>
+            </div>
+
+            <div class="input-box">
+              <span class="details">Billing Address</span>
+              <textarea
+                name=""
+                id="billingAddress"
+                cols="30"
+                rows="10"
+                required
+              ></textarea>
+            </div>
+
+            <div class="input-box">
+              <span class="details">billing addess for shipping</span>
+              <input type="checkbox" name="" id="isChecked"  />
+              <div class="error" id="checkError"></div>
+            </div>
+            <div class="input-box">
+              <span class="details"> Shipping Address</span>
+              <textarea
+                name=""
+                id="shippingAddress"
+                cols="30"
+                rows="10"
+                required
+              ></textarea>
+              <div class="error" id="shippingError"></div>
+            </div>
+            <div class="input-box">
+              <select>
+                <option>Please Select an Option</option>
+                <option value="AL">Alabama</option>
+                <option value="AK">Alaska</option>
+                <option value="AZ">Arizona</option>
+                <option value="AR">Arkansas</option>
+                <option value="CA">California</option>
+                <option value="CO">Colorado</option>
+                <option value="CT">Connecticut</option>
+                <option value="DE">Delaware</option>
+                <option value="DC">District Of Columbia</option>
+              </select>
+              <div class="error" id="cityError"></div>
+            </div>
+
+            <div>
+              <p id=""></p>
+            </div>
+          </div>
+
+          <div class="button">
+            <input type="button" value="Submit" id="submit1" />
+          </div>
+
+          <div class="button">
+            <input type="reset" value="Reset" />
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="js/new.js"></script>
+  </body>
+</html>

@@ -1,0 +1,19 @@
+.outerlayout {
+  width: 40vw;
+  height: 60vh;
+  margin: 30vm;
+  background-color: grey;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.innerlayout {
+  width: 100%;
+  height: 5vh;
+  margin-left: 30vm;
+  background-color: grey;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}

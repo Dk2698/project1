@@ -1,0 +1,30 @@
+:root{
+    --blue : #1e90ff;
+    --white : #fff;
+}
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+h1{
+    color: var(--blue);
+}
+
+[value1]::before{
+    content: attr(value1);
+}
+
+[filename]::before{
+    content: attr(filename);
+}
+
+
+
+
+p[title]::after{
+    content: attr(title);
+}

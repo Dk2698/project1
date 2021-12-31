@@ -1,0 +1,126 @@
+* {
+    color: blue;
+  }
+  :not(p) {
+    color: brown;
+  }
+  .header1 {
+    text-shadow: chartreuse 4px 4px 4px;
+  }
+  .image {
+    border: solid black 4px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+  }
+  .image:hover {
+    transform: scale(2);
+    transform: rotate(240deg);
+    transform: rotate(-240deg);
+  }
+  p[id] {
+    word-wrap: break-word;
+    text-align: justify;
+    margin: 10px 10px 10px 10px;
+    color: white;
+    font-weight: bold;
+  }
+  .container {
+    width: 40vw;
+    margin-left: 30vw;
+    background: cornflowerblue;
+    border: solid rgb(195, 230, 125) 4px;
+    border-radius: 4px;
+    height: 50vh;
+    padding-top: 40px;
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+  }
+  .lable {
+    border: none;
+    text-align: left;
+    padding: 10px;
+    width: 80%;
+    height: 25px;
+    color: white;
+    font-weight: bold;
+    margin-left: 10%;
+    margin-bottom: 10px;
+    font-size: 1.3em;
+  }
+  .input {
+    border: solid black 3px;
+    text-align: left;
+    padding: 10px;
+    width: 65vh;
+    height: 25px;
+    margin-left: 10%;
+    border-radius: 5px;
+  }
+  .buttonlarge {
+    width: 80%;
+    background-color: violet;
+    color: white;
+    padding: 10px;
+    margin-left: 10%;
+  }
+  .fpass {
+    margin-left: 10%;
+  }
+  .buttonlarge:hover {
+    border: solid black 2px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    box-shadow: green 5px 5px;
+  }
+
+  .title{
+      width: 100px;
+      height: 10vh;
+      margin: 0px 0px;
+      padding: 0px;
+      background-color: red;
+      border: none;
+      color: white;
+      font-weight: bold;
+      font-size: 3vh;
+  }
+
+  .table{
+      border-collapse: collapse;
+      margin: 20px 2px;
+      font-size: 0.9em;
+      font-family: serif;
+      min-width: 400px;
+      box-shadow: 0 0 20px rgb(221, 140, 140);
+  }
+
+  .table thead tr{
+      background-color: #fff;
+      color: rgb(221, 216, 216);
+      text-align: left;
+  }
+
+  .table tbody tr{
+    border-bottom: 2px solid #000;
+  }
+
+  .table tbody tr:nth-of-type(even){
+    border-bottom: 3px solid rgb(186, 224, 95);
+
+  }
+
+  .table tbody tr:last-of-type{
+    border-bottom: 6px solid rgb(186, 224, 95);
+
+ }
+ .table tbody tr.active-row{
+     font-weight: bold;
+     background-color: gray;
+ }

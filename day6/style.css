@@ -1,0 +1,33 @@
+body{
+    margin: 0%;
+    padding: 0%;
+
+}
+
+.dropdown{
+    display: inline;
+    position: relative;
+}
+
+.btn{
+    width: 70px;
+    height: 20px;
+    cursor: pointer;
+    border: none;
+}
+
+.dropdown-menu li{
+    text-transform: none;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+    text-transform: none;
+
+}
